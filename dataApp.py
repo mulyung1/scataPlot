@@ -7,6 +7,7 @@ df=pd.read_csv('https://plotly.github.io/datasets/country_indicators.csv')
 
 #initialize the app
 app=Dash(__name__)
+server=app.server
 
 markdownText='''
 ## QUESTION: Does the amount of electrical power consumed affect the energy output in an economy?
